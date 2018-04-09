@@ -1,0 +1,40 @@
+.header {
+
+	font-family: Verdana;
+  	font-size: 14px;
+  	font-weight: bold;
+  	display: flex;
+  	width: 100%;
+
+}
+
+.logo{
+	display: inline-flex;
+
+	align-items: center;
+	justify-content: flex-start;
+
+}
+
+.container {
+	width: 100%;
+	display: inline-flex;
+
+
+}
+
+.header ul {
+	text-align: right;
+	align-items: center;
+}
+
+
+.header li{
+	list-style: none;
+	display: inline-flex;
+}
+
+.header li a {
+	color: black;
+}
+
