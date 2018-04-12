@@ -55,6 +55,8 @@
 
 .content{
 	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
 }
 
 
@@ -63,18 +65,19 @@
 	flex-direction: column;
   width: 630px;
   border: 1px solid black;
-  margin: 10px;
+
+
 }
 
 .top.story {
 	border-top: 2px solid black;
 }
 
-.content h1 {
+.column.large h1 {
 	border-top: 2px solid black;
 }
 
-.content span {
+.column.large span {
 	border: 1px solid black;
 }
 
@@ -82,16 +85,26 @@
 	display: flex;
 	flex-direction: column;
   width: 300px;
-  border: 1px solid black;
-  margin: 10px;
+  border: 2px solid black;
 }
+
+.column.medium span {
+	border-top: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black
+	border: 1px solid black;
+}
+
 
 .column.small {
 	display: flex;
 	flex-direction: column;
   width: 240px;
   border: 1px solid black;
-  margin: 10px;
 
 }
 
+.laststory {
+	border: 1px solid black;
+
+}
