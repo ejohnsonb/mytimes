@@ -53,3 +53,45 @@
 	border-radius: 1px solid black
 }
 
+.content{
+	display: flex;
+}
+
+
+.column.large {
+	display: flex;
+	flex-direction: column;
+  width: 630px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.top.story {
+	border-top: 2px solid black;
+}
+
+.content h1 {
+	border-top: 2px solid black;
+}
+
+.content span {
+	border: 1px solid black;
+}
+
+.column.medium {
+	display: flex;
+	flex-direction: column;
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.column.small {
+	display: flex;
+	flex-direction: column;
+  width: 240px;
+  border: 1px solid black;
+  margin: 10px;
+
+}
+
