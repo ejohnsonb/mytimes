@@ -209,11 +209,42 @@ h2 {
 .footer{
 	display: flex;
 	justify-content: center;
-	text-align: center;
+	align-items: center;
 	  background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
   height: 300px;
   width: auto;
+  flex-direction: column;
+
+}
+
+.footnav {
+ 	display: inline-block;
+ 	width: 200px;
+ 	text-align: center;
+ }
+
+.footnav span {
+
+	margin: 5px;
+
+}
+
+.footnav a {
+	color: black;
+}
+
+
+.footlogo {
+
+	  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+  width: 100px;
+    border-right: 2px solid white;
+
 }
