@@ -1,6 +1,6 @@
 .header {
 
-	font-family: Verdana;
+	font-family: Arial;
   	font-size: 14px;
   	font-weight: bold;
   	display: flex;
@@ -74,7 +74,7 @@
 }
 
 .topstory {
-	
+
 }
 
 .column.large h1 {
@@ -185,7 +185,7 @@ text-align: center;
 h2 {
   font-size: 16px;
   font-weight: bold;
-  text-align: center;	
+  text-align: center;
 }
 
 .laststory ul {
